@@ -75,8 +75,20 @@ optimizer.step()
 
 ## License
 
-[Insert your license information here]
+MIT License
 
 ## Citation
 
-[Insert citation information if applicable]
+If you find our work useful, please consider citing our paper: 
+
+```
+@misc{ramesh2024blockllmmemoryefficientadaptationllms,
+      title={BlockLLM: Memory-Efficient Adaptation of LLMs by Selecting and Optimizing the Right Coordinate Blocks}, 
+      author={Amrutha Varshini Ramesh and Vignesh Ganapathiraman and Issam H. Laradji and Mark Schmidt},
+      year={2024},
+      eprint={2406.17296},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2406.17296}, 
+}
+```
