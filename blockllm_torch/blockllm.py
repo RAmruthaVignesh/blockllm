@@ -122,8 +122,8 @@ class BlockLLM(Optimizer):
         # Make the requires_grad False for the remaining parameters
         for group in self.param_groups:
             name = group["name"]
-            for param in group["params"]:
-                if name not in self.defaults["top_k_param_names"]:
+            if name not in self.defaults["top_k_param_names"]:
+                for param in group["params"]:
                     param.requires_grad = False
                     param.grad = None
 
